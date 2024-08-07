@@ -3,7 +3,7 @@ import logging
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import traceback
-from turtlish import draw_with_turtle_to_base64
+from .turtlish import draw_with_turtle_to_base64
 import matplotlib
 matplotlib.use('Agg')
 
